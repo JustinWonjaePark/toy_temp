@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 const dmSans = DM_Sans({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
-  title: "Kanban Todo",
-  description: "Kanban board application",
+  title: "feedme",
+  description: "URL을 입력하면 웹 페이지 본문을 Markdown으로 변환해 복사·다운로드·AI 전달까지 한 흐름으로 처리하는 서비스",
 };
 
 export default function RootLayout({
