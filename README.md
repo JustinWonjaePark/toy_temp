@@ -2,6 +2,22 @@
 
 Next.js 16 + React 19 프로젝트 템플릿
 
+## 프로젝트 개요
+
+Claude Code 기반 **스펙 주도 개발(Spec-Driven Development)** 워크플로우를 실습하기 위한 템플릿입니다.
+
+Ideate → Specify → Sketch → Plan → Build → Compound 6단계 사이클을 통해 아이디어를 검증된 코드로 발전시킵니다. 각 단계는 `/idea-refine`, `/write-spec`, `/sketch-wireframe`, `/draft-plan`, `/execute-plan`, `/compound` 슬래시 커맨드로 실행하며, `artifacts/<feature>/` 디렉토리에 단계별 산출물이 누적됩니다.
+
+## 실행 방법
+
+```bash
+# 의존성 설치
+bun install
+
+# 개발 서버 실행 (http://localhost:3000)
+bun dev
+```
+
 ## 기술 스택
 
 - **Framework**: Next.js 16 (App Router)
